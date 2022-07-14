@@ -1,6 +1,6 @@
 ![logo](https://docsify.js.org/_media/icon.svg)
 
-# XiaoJ's 学习笔记
+# 嘀哩哩嘀哩 学习笔记
 
 > 记录个人所学、所悟、所感 :feet:
 
@@ -9,5 +9,5 @@
 - and so on  :heartpulse:
 
 
-[GitHub](https://github.com/XiaoJing-C/Learning-records.git)
+[GitHub](https://github.com/dililidili/study-docs)
 [Get Started](README.md)
