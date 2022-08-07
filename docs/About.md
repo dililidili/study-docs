@@ -35,12 +35,8 @@ A Data Science And Big Data Technology Undergraduate Student
 
 <p>
 <a href="https://www.serendipper-x.cn/"><img alt="Website" src="https://img.shields.io/badge/Website-www.serendipper_x.cn-blue?style=flat-square&logo=google-chrome"></a>
-<a href="https://blog.csdn.net/tsundere_x"><img alt="CSDN" src="https://img.shields.io/badge/CSDN-tsundere_x-blue?style=flat-square&logo=c&logoColor=fc5531"></a>
+<a href="https://blog.csdn.net/qq_34351177"><img alt="CSDN" src="https://img.shields.io/badge/CSDN-tsundere_x-blue?style=flat-square&logo=c&logoColor=fc5531"></a>
 <a href="mailto:xiaoing_cs@163.com"><img alt="Email" src="https://img.shields.io/badge/Email-xiaoing_cs@163.com-blue?style=flat-square&logo=gmail"></a>
 </p>
 
 
-<!---
-XiaoJing-C/XiaoJing-C is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
