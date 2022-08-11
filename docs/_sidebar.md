@@ -14,6 +14,16 @@
     * [2.6、多数据源(JDBC)](/md/SpringBoot/2-6多数据源(JDBC).md)
     * [2.7、多数据源(druid+MyBatis)](/md/SpringBoot/2-7多数据源(druid+MyBatis).md)
     * [2.8、多数据源(MyBatisPlus)](/md/SpringBoot/2-8多数据源(MyBatisPlus).md)
+
+* MySQL
+  * 基础
+    * [1.1、数据库日志](/md/MySQL/1-1数据库日志.md)
+  * 优化
+    * [1.1、优化MySQL查询效率](/md/MySQL/1-1查询MySQL效率.md)
+    * [2.1、优化表设计-数据类型](/md/MySQL/2-1优化表设计-数据类型.md)
+    * [2.2、优化表设计-索引](/md/MySQL/2-2优化表设计-索引.md)
+   
 * 中文官网
-    * [SpringBoot中文官方](http://felord.cn/_doc/_springboot/2.1.5.RELEASE/_book/)
+    * [SpringBoot中文官网](http://felord.cn/_doc/_springboot/2.1.5.RELEASE/_book/)
+    * [MyBatis-Plus中文官网](https://baomidou.com/)
     
