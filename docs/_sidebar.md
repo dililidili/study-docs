@@ -18,11 +18,12 @@
 * MySQL
   * 基础
     * [1.1、数据库日志](/md/MySQL/1-1数据库日志.md)
+    * [1.2、MySQL变量@用法](/md/MySQL/1-2MySQL变量@用法.md)
   * 优化
     * [1.1、优化MySQL查询效率](/md/MySQL/1-1查询MySQL效率.md)
     * [2.1、优化表设计-数据类型](/md/MySQL/2-1优化表设计-数据类型.md)
     * [2.2、优化表设计-索引](/md/MySQL/2-2优化表设计-索引.md)
-    * [3.1、SQL优化-执行计划](/md/MySQL/2-3SQL优化-执行计划)
+    * [3.1、SQL优化-执行计划](/md/MySQL/3-1SQL优化-执行计划)
    
 * 中文官网
     * [SpringBoot中文官网](http://felord.cn/_doc/_springboot/2.1.5.RELEASE/_book/)
