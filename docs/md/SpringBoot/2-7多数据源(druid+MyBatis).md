@@ -1,8 +1,8 @@
-### 2.7使用druid+MyBatis配置多数据源
+# 2.7使用druid+MyBatis配置多数据源
 
-#### 1.配置
+## 1.配置
 
-##### pom依赖
+### pom依赖
 
 ```
 		<dependency>
@@ -28,7 +28,7 @@
 
 ```
 
-##### **application.yml** 配置
+### **application.yml** 配置
 
 ```
 spring:
@@ -45,7 +45,7 @@ spring:
       password: root
 ```
 
-##### 创建test1数据源配置类
+### 创建test1数据源配置类
 
 ```
 import com.alibaba.druid.pool.DruidDataSource;
@@ -114,7 +114,7 @@ public class DateSourceConfig {
 
 ```
 
-##### 创建test2数据源配置类
+### 创建test2数据源配置类
 
 ```
 import com.alibaba.druid.pool.DruidDataSource;
@@ -185,7 +185,8 @@ public class SubDateSourceConfig {
 
 ```
 
-**注意点：**
+#### **注意点：**
+
 1.@Primary：优先方案，被注解的实现，优先被注入。<br/>
 2.@Qualifier：先声明后使用，相当于多个实现起多个不同的名字，注入时候告诉我你要注入哪个。<br/>
 3.该配置是对某个包下的dao层和mapper.xml文件绑定数据源。<br/>

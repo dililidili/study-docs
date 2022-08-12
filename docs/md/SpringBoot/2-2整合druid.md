@@ -1,8 +1,8 @@
-### 2.2整合druid连接池
+# 2.2整合druid连接池
 
 [druid中文官网](https://github.com/alibaba/druid/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-**pom依赖**
+### **pom依赖**
 
 ```
 <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
@@ -13,7 +13,7 @@
 </dependency>
 ```
 
-**application.yml**配置文件 只需要添加`type`,druid还带有一些其他属性
+### **application.yml**配置文件 只需要添加`type`,druid还带有一些其他属性
 
 ```
 spring:
@@ -25,7 +25,7 @@ spring:
     password: 123456
 ```
 
-##### druid独有配置
+### druid独有配置
 
 ```
 druid:
@@ -69,7 +69,7 @@ druid:
   exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"
 ```
 
-##### 官网配置表格
+### 官网配置表格
 
 | 配置                                      | 缺省值             | 说明                                                         |
 | ----------------------------------------- | ------------------ | ------------------------------------------------------------ |
@@ -101,7 +101,7 @@ druid:
 
 **官网地址:** [DruidDataSource配置属性列表](https://github.com/alibaba/druid/wiki/DruidDataSource%E9%85%8D%E7%BD%AE%E5%B1%9E%E6%80%A7%E5%88%97%E8%A1%A8)
 
-##### JAVA代码载入druild连接池配置
+### JAVA代码载入druild连接池配置
 
 ```
 package com.example.demo;

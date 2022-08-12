@@ -1,8 +1,8 @@
-### 2.1、整合JDBC
+# 2.1、整合JDBC
 
-#### 1.jdbc
+## 1.jdbc
 
-**pom依赖**
+#### **pom依赖**
 
 ```
 <dependency>
@@ -16,7 +16,7 @@
 </dependency>
 ```
 
-**application.yml**配置文件
+#### **application.yml**配置文件
 
 ```
 spring:

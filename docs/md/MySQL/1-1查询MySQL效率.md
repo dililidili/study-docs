@@ -1,10 +1,10 @@
-### 1.1、查询MySQL效率
+# 1.1、查询MySQL效率
 
-#### 介绍
+## 介绍
 
 ​		MySQL的performance schema 用于监控MySQL server在一个较低级别的运行过程中的资源消耗、资源等待等情况。
 
-#### 配置
+## 配置
 
 ​		在mysql的5.7版本中，性能模式是默认开启的，如果想要显式的关闭的话需要修改配置文件，不能直接进行修改，会报错Variable performance_schema is a read only variable。
 
@@ -29,7 +29,7 @@ use performance_schema;
 show tables;                     
 ```
 
-#### performance_schema表的分类
+## performance_schema表的分类
 
 ```
 --语句事件记录表，这些表记录了语句事件信息，当前语句事件表events_statements_current、历史语句事件表events_statements_history和长语句历史事件表events_statements_history_long、以及聚合后的摘要表summary，其中，summary表还可以根据帐号(account)，主机(host)，程序(program)，线程(thread)，用户(user)和全局(global)再进行细分)
@@ -54,7 +54,7 @@ show tables like '%memory%';
 show tables like '%setup%';
 ```
 
-#### performance_schema常用SQL
+## performance_schema常用SQL
 
 ```
 --1、哪类的SQL执行最多？

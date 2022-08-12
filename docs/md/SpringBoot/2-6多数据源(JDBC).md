@@ -1,8 +1,8 @@
-### 2.6、使用JDBC实现多数据源
+# 2.6、使用JDBC实现多数据源
 
-#### 1.配置
+## 1.配置
 
-##### pom依赖配置
+### pom依赖配置
 
 ```
 <dependency>
@@ -16,7 +16,7 @@
 </dependency>
 ```
 
-##### application.properties配置文件
+### application.properties配置文件
 
 ```
 #第一个数据源指向test数据库
@@ -30,7 +30,7 @@ spring.two.datasource.username=root
 spring.two.datasource.password=123456
 ```
 
-##### 启动类SpringBootApplication.class 
+### 启动类SpringBootApplication.class 
 
 ```
 //移除DataSourceAutoConfiguration、DataSourceTransactionManagerAutoConfiguration、JdbcTemplateAutoConfiguration
@@ -46,9 +46,9 @@ public class SpringBootApplication {
 }
 ```
 
-##### 配置不同数据源配置类
+### 配置不同数据源配置类
 
-第一个数据源配置类
+#### 第一个数据源配置类
 
 ```
  
@@ -83,7 +83,7 @@ public class OneDataSourceConfig {
 }
 ```
 
-第二个数据源配置类
+#### 第二个数据源配置类
 
 ```
  
@@ -118,7 +118,7 @@ public class TwoDataSourceConfig {
 }
 ```
 
-#### 2.使用
+## 2.使用
 
 ```
   @Resource(name = "oneJdbcTemplate")

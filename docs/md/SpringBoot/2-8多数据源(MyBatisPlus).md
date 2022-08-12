@@ -1,6 +1,6 @@
-### 2.8、多数据源(druid+MyBatisPlus)
+# 2.8、多数据源(druid+MyBatisPlus)
 
-##### pom依赖
+### pom依赖
 
 ```
 		 <dependency>
@@ -31,7 +31,7 @@
 
 ```
 
-##### application.yml配置文件
+### application.yml配置文件
 
 ```
 spring:
@@ -50,7 +50,7 @@ spring:
           password: root
 ```
 
-##### 官方配置介绍
+### 官方配置介绍
 
 ```
 spring:
@@ -79,7 +79,7 @@ spring:
 
 ```
 
-**固定格式**
+#### **固定格式**
 
 ```
 # 多主多从                      纯粹多库（记得设置primary）                   混合配置
@@ -95,7 +95,7 @@ spring:                               spring:                               spri
 
 ```
 
-##### 使用`@DS`*来切换数据源*
+#### 使用`@DS`*来切换数据源*
 
 ```
 //@DS：作用域：方法、类
