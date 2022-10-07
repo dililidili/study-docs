@@ -37,7 +37,7 @@
     * [1.3、ES集群、分片、节点基础概念](/md/Elasticsearch/1-3ES集群、分片、节点基础概念.md)
     * [2.1、ES倒排索引](/md/Elasticsearch/2-1ES倒排索引.md)
     * [2.2、ES倒排索引压缩算法](/md/Elasticsearch/2-2ES倒排索引压缩算法.md)
-    * [2.3、ES Trie和FST原理](/md/Elasticsearch/2-3ES Trie和FST原理.md)
+    * [2.3、ES Trie和FST原理](/md/Elasticsearch/2-3ES_Trie和FST原理.md)
   * 操作
     * [3.1、索引操作](/md/Elasticsearch/3-1索引操作.md)
     * [3.2、数据基本查询](/md/Elasticsearch/3-2数据简单查询.md)
@@ -46,7 +46,7 @@
     * [4.2、聚合查询](/md/Elasticsearch/4-2聚合查询.md)
     * [4.3、脚本查询](/md/Elasticsearch/4-3脚本查询.md)
     * [5.1、智能搜索](/md/Elasticsearch/5-1智能搜索推荐.md)
-    * [6.1、JAVA_REST_CLIENT使用](/md/Elasticsearch/6-1JAVA REST CLIENT基础使用.md)
+    * [6.1、JAVA_REST_CLIENT使用](/md/Elasticsearch/6-1JAVA_REST_CLIENT基础使用.md)
     * [6.2、Spring使用ES](/md/Elasticsearch/6-2Spring中使用ES.md)
 * 中文官网
     * [SpringBoot中文文档](http://felord.cn/_doc/_springboot/2.1.5.RELEASE/_book/)
