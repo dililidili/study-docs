@@ -30,6 +30,11 @@
   * 进阶
     * [4.1、优化数据库-MySQL读写分离](/md/MySQL/4-1优化数据库-MySQL读写分离.md)
     * [4.2、优化数据库-服务器参数](/md/MySQL/4-2优化数据库-服务器参数.md)
+* Redis
+    * [1.1、Redis安装](/md/Redis/1-1Redis安装.md)
+    * [1.2、Redis数据类型](/md/Redis/1-2Redis数据类型.md)
+    * [1.3、Redis持久化](/md/Redis/1-3Redis持久化.md)
+    * [1.4、Redis持久化RDB-copy on write](/md/Redis/1-4Redis持久化RDB-copy_on_write.md)
 * Elastic search
   * 基础
     * [1.1、ES介绍](/md/Elasticsearch/1-1ES介绍.md)
@@ -48,11 +53,24 @@
     * [5.1、智能搜索](/md/Elasticsearch/5-1智能搜索推荐.md)
     * [6.1、JAVA_REST_CLIENT使用](/md/Elasticsearch/6-1JAVA_REST_CLIENT基础使用.md)
     * [6.2、Spring使用ES](/md/Elasticsearch/6-2Spring中使用ES.md)
+* docker
+    * [1.1、docker安装及基本操作](/md/docker/1-1docker安装及基本操作.md)
+    * [1.2、dockerfile](/md/docker/1-2dockerfile.md)
+    * [1.3、docker容器通信](/md/docker/1-3docker容器通信.md)
+    * [1.4、docker-compose](/md/docker/1-4docker-compose.md)
+* Linux环境安装
+    * [Centos8.2安装JDK1.8](/md/Linux环境/Centos8.2安装jdk1.8.md)
+    * [Centos8.2安装MySQL](/md/Linux环境/Centos8.2安装mysql.md)
+    * [Centos8.2安装nacos](/md/Linux环境/Centos8.2安装nacos.md)
 * 中文官网
     * [SpringBoot中文文档](http://felord.cn/_doc/_springboot/2.1.5.RELEASE/_book/)
     * [MyBatis-Plus中文官网](https://baomidou.com/)
     * [MySQL中文文档](https://www.mysqlzh.com/)
-    * [Mongodb中文文档](https://docs.mongoing.com/)
+    * [Mongodb4.2中文文档(1)](https://docs.mongoing.com/)
+    * [Mongodb4.2中文文档(2)](https://www.mongodb.org.cn/tutorial/3.html)
+    * [Redis中文文档](http://redis.cn/)
+    * [Maven依赖查询](https://mvnrepository.com/)
 
 * 个人收藏
   * [内网穿透工具nps使用教程](/md/myFavorite/内网穿透工具nps使用教程.md)
+  * [netapp内网穿透](/md/myFavorite/netapp内网穿透.md)
