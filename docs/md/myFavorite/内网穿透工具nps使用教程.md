@@ -33,9 +33,9 @@ web_port=8080（web管理端口）
 
 **访问地址: ip:8080**
 
-![image-20221007162011029](/Users/zhangshaojie/WebstormProjects/study-docs/docs/img/ELasticsearch/image-20221007162011029.png)
+![image-20221007162011029](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/myFavorite/image-20221007162011029.png)
 
-![image-20221007162151187](/Users/zhangshaojie/WebstormProjects/study-docs/docs/img/ELasticsearch/image-20221007162151187.png)
+![image-20221007162151187](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/myFavorite/image-20221007162151187.png)
 
 ## 五、服务端操作
 
