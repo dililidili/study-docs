@@ -1,6 +1,6 @@
 # 4.1、MySQL读写分离
 
-## 1、安装配置
+## 1、安装配置主从同步
 
 ### 1.1、配置文件
 
@@ -34,6 +34,7 @@ vi /etc/my.cnf
 log-bin=master-bin	#二进制文件的名称
 binlog-format=ROW	#二进制文件的格式
 server-id=2			#服务器的id
+relay-log=mysql-relay #增量日志格式
 ```
 
 ### 1.4、重启主MySQL
@@ -54,13 +55,24 @@ show master status；
 service mysqld restart
 #登录mysql
 mysql -uroot -p
-#连接主服务器
+#连接主服务器   master_log_file、master_log_pos的值要从show master status；里面取
 change master to master_host='192.168.85.11',master_user='root',master_password='123456',master_port=3306,master_log_file='master-bin.000001',master_log_pos=154;
 #启动slave
 start slave
 #查看slave的状态
-show slave status\G(注意没有分号)
+show slave status\G   (注意没有分号)
+#状态中 Slave_IO_Running、Slave_SQL_Running都为Yes为启动成功 否则重置重新启动
 ```
+
+### 1.6、其他会用到的
+
+```
+#重置服务器
+reset slave
+reset master
+```
+
+
 
 ## 2、原理
 

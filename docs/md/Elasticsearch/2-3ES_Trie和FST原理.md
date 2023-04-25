@@ -2,7 +2,7 @@
 
 ## 1.前缀树
 
-<img src="https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/Elasticsearch/es2-3-1.png" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/ELasticsearch/es2-3-1.png" style="zoom: 80%;" />
 
 依次输入：msb、msn、msbtech、wltech会产生如上图数据结构。
 
@@ -12,7 +12,7 @@
 
 3、若没有可以公用的部分，则单独开分支进行存储，如wltech。
 
-![](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/Elasticsearch/es2-3-2.png)
+![](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/ELasticsearch/es2-3-2.png)
 
 **但是此时有一问题，msbtech和wltech在前缀上没有可以公用的部分，但是tech可以公用。**
 
@@ -22,7 +22,7 @@
 
 当输入wltech时，tech可以复用，得出FSA将tech直接复用减少存储空间。
 
-![](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/Elasticsearch/es2-3-3.png)
+![](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/ELasticsearch/es2-3-3.png)
 
 **注意：**当输入msn时，如果是前缀树，n节点会单独新增一个节点表示final节点。在使用FSA之后n节点直接指向最后的final节点。
 
@@ -33,7 +33,7 @@
 ​		FST的压缩率非常高，相比HashMap，FST的性能相差的并不多，但是可以大大的节省空间占用。“搜索引擎”级别的词项字典动辄几亿甚至几十亿的数量级，如果使用FST对其进行存储，其高效的数据存储使得数据被压缩的很小，使其完全缓存在内存中成为了可能。FST在Lucene中的应用非常广泛，比如同义词处理、模糊查询、Suggest等都有应用。
 
 
-![](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/Elasticsearch/es2-3-4.png)
+![](https://raw.githubusercontent.com/dililidili/study-docs/main/docs/img/ELasticsearch/es2-3-4.png)
 
 **FST会在final节点中新增Final Output数值，当查找某一字符串的时候，会根据当前字符串的路径相加每个节点中的value得到最终值与初始value对应判断是否一致,从而实现key-value的映射。**
 
